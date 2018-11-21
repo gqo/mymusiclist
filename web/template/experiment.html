@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Experiments Are Dangerous!
+        </title>
+    </head>
+    <body>
+        <h2>Usernames are printed here! <a href="/">Return to safety!</a></h2>
+        <hr>
+        {{range $key, $value := .}}
+        <div>
+            {{$key}}
+        </div>
+        <br>
+        {{end}}
+    </body>
+</html>
